@@ -1,0 +1,11 @@
+get http://localhost:3000/api/notes/627fb245434110a5a5c727d9
+
+###
+
+post http://localhost:3000/api/notes HTTP/1.1
+content-type: application/json
+
+{
+  "title" : "Begadangg 2",
+  "description": "Malam ini tidak bisa tidur 2"
+}
